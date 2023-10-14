@@ -1,0 +1,58 @@
+{
+    "sourceFile": "nav.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1682765637140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1682775557340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n-function myFunction() {\n-    var x = document.getElementById(\"myLinks\");\n-    if (x.style.display === \"block\") {\n-      x.style.display = \"none\";\n-    } else {\n-      x.style.display = \"block\";\n-    }\n-  }\n\\ No newline at end of file\n+ffunction myFunction() {\n+  var x = document.getElementById(\"myLinks\");\n+  if (x.style.display === \"block\") {\n+    x.style.display = \"none\";\n+  } else {\n+    x.style.display = \"block\";\n+  }\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682873821367,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n-ffunction myFunction() {\n-  var x = document.getElementById(\"myLinks\");\n+function myFunction() {\n+  var x = document.getElementById(\"hamburger\");\n   if (x.style.display === \"block\") {\n     x.style.display = \"none\";\n   } else {\n     x.style.display = \"block\";\n-  }\n+  \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682874113032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,3 @@\n-function myFunction() {\n-  var x = document.getElementById(\"hamburger\");\n-  if (x.style.display === \"block\") {\n-    x.style.display = \"none\";\n-  } else {\n-    x.style.display = \"block\";\n-  \n-}\n\\ No newline at end of file\n+function toggleMobileMenu(menu){\n+   menu.classlist.toggle(\"open\");\n+}\n"
+                },
+                {
+                    "date": 1682874667533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n-function toggleMobileMenu(menu){\n+function hamburger(){\n    menu.classlist.toggle(\"open\");\n }\n"
+                },
+                {
+                    "date": 1682876283794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n-function hamburger(){\n-   menu.classlist.toggle(\"open\");\n-}\n+hamburger = document.querySelector(\".hamburger\");\n+    hamburger.onclick = function(){\n+        navBar = document.querySelector(\".navbar\");\n+        navBar.classList.toggle(\"active\");\n+    }\n"
+                },
+                {
+                    "date": 1682876432238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n hamburger = document.querySelector(\".hamburger\");\n     hamburger.onclick = function(){\n-        navBar = document.querySelector(\".navbar\");\n+        navBar = document.querySelector(\".nav-bar\");\n         navBar.classList.toggle(\"active\");\n     }\n"
+                },
+                {
+                    "date": 1683017064187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,3 @@\n-hamburger = document.querySelector(\".hamburger\");\n-    hamburger.onclick = function(){\n-        navBar = document.querySelector(\".nav-bar\");\n-        navBar.classList.toggle(\"active\");\n-    }\n+function toggleMobileMenu(menu) {\n+    menu.classList.toggle('open');\n+  }\n"
+                },
+                {
+                    "date": 1683018103021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n-function toggleMobileMenu(menu) {\n-    menu.classList.toggle('open');\n-  }\n+hamburger = document.querySelector(\".hamburger\");\n+    hamburger.onclick = function(){\n+        navBar = document.querySelector(\".nav-bar\");\n+        navBar.classList.toggle(\"open\");\n+    }\n"
+                },
+                {
+                    "date": 1683018510468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n hamburger = document.querySelector(\".hamburger\");\n-    hamburger.onclick = function(){\n+    hamburger.onclick = function() {\n         navBar = document.querySelector(\".nav-bar\");\n-        navBar.classList.toggle(\"open\");\n+        navBar.classList.toggle(\"active\");\n     }\n"
+                },
+                {
+                    "date": 1683035228943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,3 @@\n-hamburger = document.querySelector(\".hamburger\");\n-    hamburger.onclick = function() {\n-        navBar = document.querySelector(\".nav-bar\");\n-        navBar.classList.toggle(\"active\");\n-    }\n+function toggleMobileMenu(menu) {\n+    menu.classList.toggle('open');\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1682765637140,
+            "name": "Commit-0",
+            "content": "function myFunction() {\n    var x = document.getElementById(\"myLinks\");\n    if (x.style.display === \"block\") {\n      x.style.display = \"none\";\n    } else {\n      x.style.display = \"block\";\n    }\n  }"
+        }
+    ]
+}
